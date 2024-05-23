@@ -9,6 +9,7 @@
 }
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
+
 ::selection {
             background-color: #6AC1CC; /* 배경색 설정 */
             color: #fff; /* 텍스트 색상 설정 */
@@ -140,6 +141,7 @@ background-size: cover;
 .top3200 {top: 3200px; /* 원하는 위치로 조정 */}
 .top3500 {top: 3450px; /* 원하는 위치로 조정 */}
 
+
 .image-stack {
     position: relative;
     height: fit-content;
@@ -157,7 +159,7 @@ background-size: cover;
     transform: rotate(-17.5deg); /* 이미지 중첩시 회전 */
 }
 
-.text-overlay {
+.text-overlay1 {
     position: absolute;
     top: 3300px; /* 텍스트 오버레이의 위치를 조정 */
     left: 100px; /* 텍스트 오버레이의 위치를 조정 */
@@ -165,9 +167,47 @@ background-size: cover;
     width: 450px;
     height: 150px;
     z-index: 100;
-    margin-left: 0;
+    margin-left: 0;}
 
-}
+    .text-overlay2 {
+    position: absolute;
+    top: 3550px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 250px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;}
+
+    .text-overlay3 {
+    position: absolute;
+    top: 3680px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 340px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;}
+
+    .text-overlay4 {
+    position: absolute;
+    top: 3810px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 780px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;}
+
+        .text-overlay5 {
+    position: absolute;
+    top: 3940px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 260px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;}
 
 
  .caa img {display: block;
